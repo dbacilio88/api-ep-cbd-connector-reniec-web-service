@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2023.01.12 a las 11:18:58 AM COT 
+// Generado el: 2023.01.13 a las 09:37:30 AM COT 
 //
 
 
@@ -15,9 +15,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Clase Java para peticionConsulta complex type.
- *
+ * 
  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
- *
+ * 
  * <pre>
  * &lt;complexType name="peticionConsulta"&gt;
  *   &lt;complexContent&gt;
@@ -32,6 +32,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "peticionConsulta", propOrder = {
@@ -40,7 +42,7 @@ import javax.xml.bind.annotation.XmlType;
     "nuRucUsuario",
     "password"
 })
-public class    PeticionConsulta {
+public class PeticionConsulta {
 
     protected String nuDniConsulta;
     protected String nuDniUsuario;
@@ -49,9 +51,11 @@ public class    PeticionConsulta {
 
     /**
      * Obtiene el valor de la propiedad nuDniConsulta.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getNuDniConsulta() {
         return nuDniConsulta;
@@ -59,9 +63,11 @@ public class    PeticionConsulta {
 
     /**
      * Define el valor de la propiedad nuDniConsulta.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setNuDniConsulta(String value) {
         this.nuDniConsulta = value;
@@ -69,9 +75,11 @@ public class    PeticionConsulta {
 
     /**
      * Obtiene el valor de la propiedad nuDniUsuario.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getNuDniUsuario() {
         return nuDniUsuario;
@@ -79,9 +87,11 @@ public class    PeticionConsulta {
 
     /**
      * Define el valor de la propiedad nuDniUsuario.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setNuDniUsuario(String value) {
         this.nuDniUsuario = value;
@@ -89,9 +99,11 @@ public class    PeticionConsulta {
 
     /**
      * Obtiene el valor de la propiedad nuRucUsuario.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getNuRucUsuario() {
         return nuRucUsuario;
@@ -99,9 +111,11 @@ public class    PeticionConsulta {
 
     /**
      * Define el valor de la propiedad nuRucUsuario.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setNuRucUsuario(String value) {
         this.nuRucUsuario = value;
@@ -109,9 +123,11 @@ public class    PeticionConsulta {
 
     /**
      * Obtiene el valor de la propiedad password.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getPassword() {
         return password;
@@ -119,21 +135,14 @@ public class    PeticionConsulta {
 
     /**
      * Define el valor de la propiedad password.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setPassword(String value) {
         this.password = value;
     }
 
-    @Override
-    public String toString() {
-        return "PeticionConsulta{" +
-            "nuDniConsulta='" + nuDniConsulta + '\'' +
-            ", nuDniUsuario='" + nuDniUsuario + '\'' +
-            ", nuRucUsuario='" + nuRucUsuario + '\'' +
-            ", password='" + password + '\'' +
-            '}' ;
-    }
 }
