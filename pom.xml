@@ -364,22 +364,22 @@
 
     <distributionManagement>
         <repository>
-            <id>local-releases</id>
-            <name>local-release</name>
-            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//releases</url>
+            <id>bacsystem-central</id>
+            <name>bacsystem-central</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>local-snapshots</id>
-            <name>local-snapshot</name>
-            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//snapshots</url>
+            <id>bacsystem-central-snapshot</id>
+            <name>bacsystem-central-snapshot</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>local-releases</id>
-            <name>local-release</name>
-            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//releases</url>
+            <id>bacsystem-central</id>
+            <name>bacsystem-central</name>
+            <url>http://localhost:8081/repository/maven-public/</url>
         </repository>
     </repositories>
 

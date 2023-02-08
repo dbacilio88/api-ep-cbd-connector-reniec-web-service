@@ -154,8 +154,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.github.java-json-tools:msg-simple:1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.github.java-json-tools:btf:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.github.java-json-tools:jackson-coreutils:2.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.swagger.core.v3:swagger-models:2.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.swagger.parser.v3:swagger-parser-core:2.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.swagger.parser.v3:swagger-parser-v3:2.1.2" level="project" />
@@ -167,7 +165,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.angus:angus-activation:1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-placeholders:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-text:1.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.github.classgraph:classgraph:4.8.149" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.86.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.86.Final" level="project" />
@@ -218,6 +215,10 @@
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.1" level="project" />
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.26" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.5.3.Final" level="project" />
   </component>
 </module>
