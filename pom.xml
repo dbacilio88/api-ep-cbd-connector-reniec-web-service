@@ -28,6 +28,7 @@
         <dependency-org.mapstruct-version>1.5.3.Final</dependency-org.mapstruct-version>
         <dependency-org.postgresql-version>42.5.1</dependency-org.postgresql-version>
         <dependency-lib-ep-cbd-microservices-utils-version>1.0.0</dependency-lib-ep-cbd-microservices-utils-version>
+        <dependency-lib-ep-cbd-microservices-web-service-version>1.0.0</dependency-lib-ep-cbd-microservices-web-service-version>
         <plugin-maven-compiler.version>3.10.1</plugin-maven-compiler.version>
         <plugin-maven-dependency.version>2.8</plugin-maven-dependency.version>
         <plugin-maven-failsafe.version>2.22.2</plugin-maven-failsafe.version>
@@ -132,9 +133,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct</artifactId>
-            <version>${dependency-org.mapstruct-version}</version>
+            <groupId>ep.mil.microservices</groupId>
+            <artifactId>lib-ep-cbd-microservices-web-service</artifactId>
+            <version>${dependency-lib-ep-cbd-microservices-web-service-version}</version>
         </dependency>
 
     </dependencies>

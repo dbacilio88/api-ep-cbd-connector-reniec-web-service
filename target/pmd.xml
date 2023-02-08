@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.46.0" timestamp="2023-01-13T09:37:38.870">
-<file name="C:\Users\cbacilio\Documents\novopayment\ambiente\cbd\archetypes\api-ep-cbd-connector-reniec-web-service\src\main\java\pe\mil\microservices\services\implementations\PersonQueryService.java">
-<violation beginline="6" endline="6" begincolumn="1" endcolumn="75" rule="UnnecessaryImport" ruleset="Code Style" package="pe.mil.microservices.services.implementations" class="PersonQueryService" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
-Unused import 'pe.mil.microservices.components.connectors.reniec.ConsultarResponse'
-</violation>
-</file>
-</pmd>
