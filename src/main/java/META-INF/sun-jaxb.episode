@@ -6,7 +6,7 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
 Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2023.01.13 a las 09:37:30 AM COT 
+Generado el: 2023.02.08 a las 02:37:50 PM COT 
 
   -->
       
@@ -14,61 +14,61 @@ Generado el: 2023.01.13 a las 09:37:30 AM COT
             
         <schemaBindings map="false">
                   
-            <package name="pe.mil.microservices.components.connectors.reniec"/>
+            <package name="pe.mil.microservices.connectors.wsdl.reniec"/>
                 
         </schemaBindings>
             
         <bindings if-exists="true" scd="tns:consultar">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.Consultar"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.Consultar"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:peticionConsulta">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.PeticionConsulta"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.PeticionConsulta"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:actualizarcredencial">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.Actualizarcredencial"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.Actualizarcredencial"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:peticionActualizarCredencial">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.PeticionActualizarCredencial"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.PeticionActualizarCredencial"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:consultarResponse">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.ConsultarResponse"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.ConsultarResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:resultadoConsulta">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.ResultadoConsulta"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.ResultadoConsulta"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:actualizarcredencialResponse">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.ActualizarcredencialResponse"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.ActualizarcredencialResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:resultadoActualizacionCredencial">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.ResultadoActualizacionCredencial"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.ResultadoActualizacionCredencial"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="~tns:datosPersona">
                   
-            <class ref="pe.mil.microservices.components.connectors.reniec.DatosPersona"/>
+            <class ref="pe.mil.microservices.connectors.wsdl.reniec.DatosPersona"/>
                 
         </bindings>
           

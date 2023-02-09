@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+<Properties>
+    <Property name="LOG_FILE_NAME">${env:FILE_NAME:-api-ep-cbd-connector-reniec-web-service}</Property>
+    <Property name="LOG_FOLDER">${env:APP_LOG_ROOT:-/logs}</Property>
+    <Property name="LOG_PATTERN_CONSOLE">%blue{%d}[%magenta{%X{userId}}][%magenta{%X{tenantId}}][%magenta{%t}][%highlight{%-5p}][%cyan{api-ep-cbd-connector-reniec-web-service}][%X{method}|%blue{%-30.33c{1} #%L:}] %highlight{%m}%n</Property>
+    <Property name="LOG_PATTERN_FILE">%d|%X{requestId}|%X{tenantId}|{%t}|%p|api-ep-cbd-connector-reniec-web-service|%X{method}|%c{1} #%L: %m%n</Property>
+</Properties>
+
+<Appenders>
+    <Console name="console" target="SYSTEM_OUT">
+        <PatternLayout pattern="${LOG_PATTERN_CONSOLE}" />
+    </Console>
+
+    <RollingFile name="fileApiLog" fileName="${LOG_FOLDER}/${LOG_FILE_NAME}.log"
+                 filePattern="${LOG_FOLDER}/${LOG_FILE_NAME}-debug-backup-%d{yyyy-MM-dd}-%i.log">
+        <LevelRangeFilter minLevel="FATAL" maxLevel="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>
+        <PatternLayout pattern="${LOG_PATTERN_FILE}"/>
+
+        <Policies>
+            <SizeBasedTriggeringPolicy size="4MB" />
+        </Policies>
+        <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+
+    <Async name="Async">
+        <AppenderRef ref="fileApiLog"/>
+    </Async>
+</Appenders>
+
+<Loggers>
+    <Root level="INFO">
+        <AppenderRef ref="console" />
+        <AppenderRef ref="Async"/>
+    </Root>
+</Loggers>
+</Configuration>

@@ -8,7 +8,10 @@ import pe.mil.microservices.utils.components.properties.MicroserviceProperties;
 import javax.validation.constraints.NotNull;
 
 
-@SpringBootApplication
+@SpringBootApplication(
+    scanBasePackages = {
+        "pe.mil.microservices"
+    })
 public class Application extends MicroserviceApplication {
 
     public Application(@NotNull final MicroserviceProperties properties) {

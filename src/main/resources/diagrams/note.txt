@@ -1,0 +1,23 @@
+/**
+     * Obtiene el valor de la propiedad foto.
+     *
+     * @return
+     *     possible object is
+     *     byte[]
+     */
+    @SuppressFBWarnings(value = "EI_EXPOSE_REP", justification = "EI_EXPOSE_REP")
+    public byte[] getFoto() {
+        return foto;
+    }
+
+    /**
+     * Define el valor de la propiedad foto.
+     *
+     * @param value
+     *     allowed object is
+     *     byte[]
+     */
+    @SuppressFBWarnings(value = "EI_EXPOSE_REP2", justification = "EI_EXPOSE_REP2")
+    public void setFoto(byte[] value) {
+        this.foto = value;
+    }

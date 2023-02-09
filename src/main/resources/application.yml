@@ -1,20 +1,19 @@
 # Embedded Server configuration
 server:
-    port: 8000
-#    compression:
-#        enabled: true
-#    tomcat:
-#        uri-encoding: UTF-8
-#    error:
-#        include-stacktrace: never
+    port: 8009
+    compression:
+        enabled: true
+    tomcat:
+        uri-encoding: UTF-8
+    error:
+        include-stacktrace: never
 
 # Spring configuration
 spring:
     webflux:
-        base-path: /customers/v1
-
+        base-path: /microservices/v1
     application:
-        name: customers
+        name: reniec
         version: 1.0.0
         log: /logs
     messages:
@@ -64,3 +63,17 @@ spring:
 logging:
     level:
         root: INFO
+
+#Configure web services
+soap-integration-services:
+    global-configuration:
+        base-service-uri: https://ws5.pide.gob.pe/services/
+    mutual-configuration:
+        mutual-enable: true
+        client-keystore-path: path
+        client-keystore-password: 123
+        server-truststore-path: path
+        server-truststore-password: 123
+    reniec-soap-service:
+        service-uri: https://ws5.pide.gob.pe/services/ReniecConsultaDni.ReniecConsultaDniHttpsSoap11Endpoint
+        service-generator-wsdl-path: pe.mil.microservices.connectors.wsdl.reniec
